@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Feb 14 22:42:06 2020
+# Process ID: 1804
+# Current directory: D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7660 D:\CDE49\soc_axi_func\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/vivado.log
+# Journal file: D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+add_files -scan_for_includes {D:/CDE49/cpu/bus/AXIAdapter.v D:/CDE49/cpu/core/storage/RegFile.v D:/CDE49/cpu/core/stage/if/IFID.v D:/CDE49/cpu/include/sim.v D:/CDE49/cpu/core/Core.v D:/CDE49/cpu/core/stage/ex/EX.v D:/CDE49/cpu/mmu/StaticMMU.v D:/CDE49/cpu/core/stage/mem/MEM.v D:/CDE49/cpu/core/stage/id/RegGen.v D:/CDE49/cpu/core/storage/RegReadProxy.v D:/CDE49/cpu/core/pipeline/PipelineController.v D:/CDE49/cpu/core/stage/wb/WB.v D:/CDE49/cpu/mycpu_top.v D:/CDE49/cpu/core/stage/if/PC.v D:/CDE49/cpu/core/stage/id/FunctGen.v D:/CDE49/cpu/core/stage/id/ID.v D:/CDE49/cpu/core/stage/id/MemGen.v D:/CDE49/cpu/core/stage/mem/MEMWB.v D:/CDE49/cpu/core/stage/id/IDEX.v D:/CDE49/cpu/include/funct.v D:/CDE49/cpu/include/pcdef.v D:/CDE49/cpu/include/iobuf.v D:/CDE49/cpu/include/bus.v D:/CDE49/cpu/include/segpos.v D:/CDE49/cpu/core/stage/id/BranchGen.v D:/CDE49/cpu/sim/ROM.v D:/CDE49/cpu/include/opcode.v D:/CDE49/cpu/ip/InternalCrossbar/InternalCrossbar.xci D:/CDE49/cpu/core/pipeline/PipelineDeliver.v D:/CDE49/cpu/core/stage/id/OperandGen.v D:/CDE49/cpu/sim/RAM.v D:/CDE49/cpu/core/stage/ex/EXMEM.v D:/CDE49/cpu/include/debug.v D:/CDE49/cpu/TinyMIPS.v}
+export_ip_user_files -of_objects  [get_files  D:/CDE49/cpu/ip/InternalCrossbar/InternalCrossbar.xci] -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -force -quiet
+update_compile_order -fileset sources_1
+set_property include_dirs D:/CDE49/cpu/include [current_fileset]
+update_compile_order -fileset sources_1
+set_property is_global_include true [get_files  {D:/CDE49/cpu/include/pcdef.v D:/CDE49/cpu/include/funct.v D:/CDE49/cpu/include/sim.v D:/CDE49/cpu/include/bus.v D:/CDE49/cpu/include/debug.v D:/CDE49/cpu/include/segpos.v D:/CDE49/cpu/include/opcode.v}]
+update_compile_order -fileset sources_1
+generate_target all [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+export_ip_user_files -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll.xci] -directory D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+export_ip_user_files -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci] -directory D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci]
+export_ip_user_files -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.xci] -directory D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci]
+export_ip_user_files -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci] -directory D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=D:/CDE49/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset axi_clock_converter
+set_property top axi_clock_converter [get_fileset axi_clock_converter]
+move_files -fileset [get_fileset axi_clock_converter] [get_files -of_objects [get_fileset sources_1] D:/CDE49/soc_axi_func/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter.xci]
+launch_run {clk_pll_synth_1 axi_ram_synth_1 axi_crossbar_1x2_synth_1 axi_clock_converter_synth_1}
+wait_on_run clk_pll_synth_1
+
+wait_on_run clk_pll_synth_1
+wait_on_run axi_ram_synth_1
+
+launch_simulation
+source tb_top.tcl
+run all
+run all
+reset_run axi_crossbar_1x2_synth_1
+reset_run axi_clock_converter_synth_1
+reset_run axi_ram_synth_1
+close_sim

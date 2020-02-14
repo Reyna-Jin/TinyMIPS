@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "D:/CDE49/cpu/include/sim.v" "D:/CDE49/cpu/include/segpos.v" "D:/CDE49/cpu/include/pcdef.v" "D:/CDE49/cpu/include/opcode.v" "D:/CDE49/cpu/include/funct.v" "D:/CDE49/cpu/include/debug.v" "D:/CDE49/cpu/include/bus.v" -i "../../../../../../../cpu/include" --include "../../../../mycpu.ip_user_files/ipstatic/hdl" --include "../../../../../../rtl/xilinx_ip/clk_pll" --include "../../../../../../../cpu/include" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../../../rtl/xilinx_ip/axi_ram/sim/axi_ram.v" \
+"../../../../../../rtl/xilinx_ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" \
+"../../../../../../rtl/xilinx_ip/axi_clock_converter/sim/axi_clock_converter.v" \
+"../../../../../../../cpu/ip/InternalCrossbar/sim/InternalCrossbar.v" \
+"../../../../../../../cpu/bus/AXIAdapter.v" \
+"../../../../../../../cpu/core/stage/id/BranchGen.v" \
+"../../../../../../../cpu/core/Core.v" \
+"../../../../../../../cpu/core/stage/ex/EX.v" \
+"../../../../../../../cpu/core/stage/ex/EXMEM.v" \
+"../../../../../../../cpu/core/stage/id/FunctGen.v" \
+"../../../../../../../cpu/core/stage/id/ID.v" \
+"../../../../../../../cpu/core/stage/id/IDEX.v" \
+"../../../../../../../cpu/core/stage/if/IFID.v" \
+"../../../../../../../cpu/core/stage/mem/MEM.v" \
+"../../../../../../../cpu/core/stage/mem/MEMWB.v" \
+"../../../../../../../cpu/core/stage/id/MemGen.v" \
+"../../../../../../../cpu/core/stage/id/OperandGen.v" \
+"../../../../../../../cpu/core/stage/if/PC.v" \
+"../../../../../../../cpu/core/pipeline/PipelineController.v" \
+"../../../../../../../cpu/core/pipeline/PipelineDeliver.v" \
+"../../../../../../../cpu/core/storage/RegFile.v" \
+"../../../../../../../cpu/core/stage/id/RegGen.v" \
+"../../../../../../../cpu/core/storage/RegReadProxy.v" \
+"../../../../../../../cpu/mmu/StaticMMU.v" \
+"../../../../../../../cpu/TinyMIPS.v" \
+"../../../../../../../cpu/core/stage/wb/WB.v" \
+"../../../../../../rtl/axi_wrap/axi_wrap.v" \
+"../../../../../../rtl/ram_wrap/axi_wrap_ram.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../../cpu/mycpu_top.v" \
+"../../../../../../rtl/soc_axi_lite_top.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,2 @@
+InternalCrossbar.v,verilog,xil_defaultlib,../../../../../../../cpu/ip/InternalCrossbar/sim/InternalCrossbar.v,incdir="$ref_dir/../../../ipstatic/hdl"incdir="../../../ipstatic/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

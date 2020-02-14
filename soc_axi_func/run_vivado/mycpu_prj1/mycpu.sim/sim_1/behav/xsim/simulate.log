@@ -1,0 +1,84 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.u_axi_ram.ram.inst.axi_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+==============================================================
+Test begin!
+        [  22000 ns] Test is running, debug_wb_pc = 0x9fc04438
+        [  32000 ns] Test is running, debug_wb_pc = 0x9fc044cc
+        [  42000 ns] Test is running, debug_wb_pc = 0x9fc04564
+        [  52000 ns] Test is running, debug_wb_pc = 0x9fc045fc
+        [  62000 ns] Test is running, debug_wb_pc = 0x9fc04694
+        [  72000 ns] Test is running, debug_wb_pc = 0x9fc0472c
+        [  82000 ns] Test is running, debug_wb_pc = 0x9fc047c4
+        [  92000 ns] Test is running, debug_wb_pc = 0x9fc0485c
+        [ 102000 ns] Test is running, debug_wb_pc = 0x9fc048f4
+        [ 112000 ns] Test is running, debug_wb_pc = 0x9fc04988
+        [ 122000 ns] Test is running, debug_wb_pc = 0x9fc04a20
+        [ 132000 ns] Test is running, debug_wb_pc = 0x9fc04ab8
+        [ 142000 ns] Test is running, debug_wb_pc = 0x9fc04b50
+        [ 152000 ns] Test is running, debug_wb_pc = 0x9fc04be8
+        [ 162000 ns] Test is running, debug_wb_pc = 0x9fc04c80
+        [ 172000 ns] Test is running, debug_wb_pc = 0x9fc04d18
+        [ 182000 ns] Test is running, debug_wb_pc = 0x9fc04db0
+        [ 192000 ns] Test is running, debug_wb_pc = 0x9fc04e44
+        [ 202000 ns] Test is running, debug_wb_pc = 0x9fc04edc
+        [ 212000 ns] Test is running, debug_wb_pc = 0x9fc04f74
+        [ 222000 ns] Test is running, debug_wb_pc = 0x9fc0500c
+        [ 232000 ns] Test is running, debug_wb_pc = 0x9fc050a4
+        [ 242000 ns] Test is running, debug_wb_pc = 0x9fc0513c
+        [ 252000 ns] Test is running, debug_wb_pc = 0x9fc051d4
+        [ 262000 ns] Test is running, debug_wb_pc = 0x9fc0526c
+        [ 272000 ns] Test is running, debug_wb_pc = 0x9fc05300
+        [ 282000 ns] Test is running, debug_wb_pc = 0x9fc05398
+        [ 292000 ns] Test is running, debug_wb_pc = 0x9fc05430
+        [ 302000 ns] Test is running, debug_wb_pc = 0x9fc054c8
+        [ 312000 ns] Test is running, debug_wb_pc = 0x9fc05560
+----[ 320215 ns] Number 8'd01 Functional Test Point PASS!!!
+        [ 322000 ns] Test is running, debug_wb_pc = 0x9fc00af8
+        [ 332000 ns] Test is running, debug_wb_pc = 0xbfc45960
+        [ 342000 ns] Test is running, debug_wb_pc = 0xbfc459f8
+        [ 352000 ns] Test is running, debug_wb_pc = 0xbfc45a90
+        [ 362000 ns] Test is running, debug_wb_pc = 0xbfc45b28
+        [ 372000 ns] Test is running, debug_wb_pc = 0xbfc45bc0
+        [ 382000 ns] Test is running, debug_wb_pc = 0xbfc45c58
+        [ 392000 ns] Test is running, debug_wb_pc = 0xbfc45cf0
+        [ 402000 ns] Test is running, debug_wb_pc = 0xbfc45d84
+        [ 412000 ns] Test is running, debug_wb_pc = 0xbfc45e1c
+        [ 422000 ns] Test is running, debug_wb_pc = 0xbfc45eb4
+        [ 432000 ns] Test is running, debug_wb_pc = 0xbfc45f4c
+        [ 442000 ns] Test is running, debug_wb_pc = 0xbfc45fe4
+        [ 452000 ns] Test is running, debug_wb_pc = 0xbfc4607c
+        [ 462000 ns] Test is running, debug_wb_pc = 0xbfc46114
+        [ 472000 ns] Test is running, debug_wb_pc = 0xbfc461ac
+        [ 482000 ns] Test is running, debug_wb_pc = 0xbfc46240
+        [ 492000 ns] Test is running, debug_wb_pc = 0xbfc462d8
+        [ 502000 ns] Test is running, debug_wb_pc = 0xbfc46370
+        [ 512000 ns] Test is running, debug_wb_pc = 0xbfc46408
+        [ 522000 ns] Test is running, debug_wb_pc = 0xbfc464a0
+        [ 532000 ns] Test is running, debug_wb_pc = 0xbfc46538
+        [ 542000 ns] Test is running, debug_wb_pc = 0xbfc465d0
+        [ 552000 ns] Test is running, debug_wb_pc = 0xbfc46668
+        [ 562000 ns] Test is running, debug_wb_pc = 0xbfc466fc
+        [ 572000 ns] Test is running, debug_wb_pc = 0xbfc46794
+        [ 582000 ns] Test is running, debug_wb_pc = 0xbfc4682c
+        [ 592000 ns] Test is running, debug_wb_pc = 0xbfc468c4
+        [ 602000 ns] Test is running, debug_wb_pc = 0xbfc4695c
+        [ 612000 ns] Test is running, debug_wb_pc = 0xbfc469f4
+        [ 622000 ns] Test is running, debug_wb_pc = 0xbfc46a8c
+        [ 632000 ns] Test is running, debug_wb_pc = 0xbfc46b24
+        [ 642000 ns] Test is running, debug_wb_pc = 0xbfc46bbc
+        [ 652000 ns] Test is running, debug_wb_pc = 0xbfc46c50
+        [ 662000 ns] Test is running, debug_wb_pc = 0xbfc46ce8
+        [ 672000 ns] Test is running, debug_wb_pc = 0xbfc46d80
+        [ 682000 ns] Test is running, debug_wb_pc = 0xbfc46e18
+        [ 692000 ns] Test is running, debug_wb_pc = 0xbfc46eb0
+        [ 702000 ns] Test is running, debug_wb_pc = 0xbfc46f48
+        [ 712000 ns] Test is running, debug_wb_pc = 0xbfc46fe0
+        [ 722000 ns] Test is running, debug_wb_pc = 0xbfc47078
